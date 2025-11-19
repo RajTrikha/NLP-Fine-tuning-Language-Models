@@ -1,0 +1,141 @@
+════════════════════════════════════════════════════════════════════════════
+                    HW4 FINAL SUBMISSION CHECKLIST
+              Print this and check off each item as you complete it
+════════════════════════════════════════════════════════════════════════════
+
+TASK 1: DOWNLOAD FROM LIGHTNING AI (~15 min)
+═══════════════════════════════════════════════════════════════════════════
+
+Location: /teamspace/studios/this_studio/hw4-code/part-2-code/
+
+[ ] Downloaded: results/t5_ft_t5_final_complete_test.sql
+[ ] Downloaded: records/t5_ft_t5_final_complete_test.pkl
+[ ] Downloaded: checkpoints/ft_experiments/t5_final_complete/best_model/ (folder)
+
+[ ] Renamed test.sql to: t5_ft_experiment_test.sql
+[ ] Renamed test.pkl to: t5_ft_experiment_test.pkl
+
+Command to rename:
+cd /Users/rajtrikha/Downloads/hw4/hw4-code/part-2-code/results/
+mv t5_ft_t5_final_complete_test.sql t5_ft_experiment_test.sql
+cd ../records/
+mv t5_ft_t5_final_complete_test.pkl t5_ft_experiment_test.pkl
+
+───────────────────────────────────────────────────────────────────────────
+
+TASK 2: CREATE GITHUB REPOSITORY (~20 min)
+═══════════════════════════════════════════════════════════════════════════
+
+[ ] Created new GitHub repository at github.com/new
+    Repository name: _______________________________________________
+
+[ ] Ran commands to upload code:
+    [ ] cd /Users/rajtrikha/Downloads/hw4/hw4-code
+    [ ] Created .gitignore (copy from QUICK_REFERENCE.md)
+    [ ] git init
+    [ ] git add .
+    [ ] git commit -m "Add HW4: BERT and T5 text-to-SQL (85.53% F1)"
+    [ ] git remote add origin https://github.com/___________/___________
+    [ ] git branch -M main
+    [ ] git push -u origin main
+
+[ ] Verified code uploaded successfully on GitHub website
+
+[ ] Copied GitHub URL: _____________________________________________
+
+───────────────────────────────────────────────────────────────────────────
+
+TASK 3: UPLOAD TO GOOGLE DRIVE (~15 min)
+═══════════════════════════════════════════════════════════════════════════
+
+[ ] Went to drive.google.com
+[ ] Created folder: "HW4_T5_Checkpoint"
+[ ] Uploaded entire best_model/ folder (contains config.json,
+    generation_config.json, model.safetensors)
+[ ] Right-click folder → Share → "Anyone with the link can view"
+[ ] Tested link in incognito window (works: YES / NO)
+
+[ ] Copied Google Drive URL: _______________________________________
+
+───────────────────────────────────────────────────────────────────────────
+
+TASK 4: UPDATE LATEX REPORT (~5 min)
+═══════════════════════════════════════════════════════════════════════════
+
+File: /Users/rajtrikha/Downloads/hw4/hw4-report.tex
+
+[ ] Line 7: Changed "Full Name \\ Net ID" to my actual info
+    \author{_____________________ \\ _____________________}
+
+[ ] Line 19: Pasted GitHub URL (from Task 2)
+    \url{___________________________________________________}
+
+[ ] Line 183: Pasted Google Drive URL (from Task 3)
+    \url{___________________________________________________}
+
+[ ] Saved file
+
+───────────────────────────────────────────────────────────────────────────
+
+TASK 5: COMPILE PDF (~5 min)
+═══════════════════════════════════════════════════════════════════════════
+
+[ ] Ran: cd /Users/rajtrikha/Downloads/hw4
+[ ] Ran: pdflatex hw4-report.tex
+[ ] Ran: pdflatex hw4-report.tex (SECOND TIME - important!)
+
+OR (if local compilation failed):
+[ ] Uploaded hw4-report.tex and header.tex to Overleaf
+[ ] Compiled successfully
+[ ] Downloaded PDF
+
+[ ] Opened PDF and verified ALL of the following:
+    [ ] My name and NetID appear on title page
+    [ ] GitHub URL is clickable (page 1)
+    [ ] Q2.1 has transformation description (page 1)
+    [ ] Q3.1 has complete analysis with 4 bullet points (page 1)
+    [ ] Q4 has Tables 1 & 2 (page 2)
+    [ ] Q5 has Table 3 (page 2-3)
+    [ ] Q6 has Tables 4 & 5 (page 3-4)
+    [ ] Google Drive URL is clickable (page 4)
+    [ ] All tables render correctly (no formatting errors)
+
+───────────────────────────────────────────────────────────────────────────
+
+TASK 6: SUBMIT TO GRADESCOPE (~5 min)
+═══════════════════════════════════════════════════════════════════════════
+
+PROGRAMMING SUBMISSION:
+[ ] Went to Gradescope → HW4 Part 2 Programming
+[ ] Uploaded: t5_ft_experiment_test.sql
+[ ] Uploaded: t5_ft_experiment_test.pkl
+[ ] Clicked Submit
+[ ] Autograder result: _______ F1 score (expected ~85%)
+
+WRITTEN SUBMISSION:
+[ ] Went to Gradescope → HW4 Written
+[ ] Uploaded: hw4-report.pdf
+[ ] Clicked Submit
+[ ] Assigned pages to questions (if required)
+
+═══════════════════════════════════════════════════════════════════════════
+                              🎉 ALL DONE! 🎉
+═══════════════════════════════════════════════════════════════════════════
+
+Expected Scores:
+✓ Part 1: Full credit
+✓ Part 2 Performance: 25/25 (85.53% F1 >> 65% requirement)
+✓ Part 2 Written: 25/25 (all tables complete)
+✓ Extra Credit 1: +1% (likely top 3 with 85.53%)
+
+Total: 50/50 + 1% bonus = Excellent work! 🚀
+
+═══════════════════════════════════════════════════════════════════════════
+
+Notes:
+- Total time: ~60 minutes for all 6 tasks
+- Keep GitHub and Google Drive links accessible (TAs will check them)
+- Don't submit multiple times to Gradescope test set (may deduct points)
+- You're done! No more work needed!
+
+═══════════════════════════════════════════════════════════════════════════
