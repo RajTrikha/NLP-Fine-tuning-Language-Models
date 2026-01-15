@@ -1,6 +1,6 @@
 # NLP Fine-tuning Language Models
 
-**Author:** Raj Trikha (rt2932)
+**Author:** Raj Trikha 
 
 **Best Result:** Achieved the highest F1 score for T5 fine-tuning: **F1 = 79.85**
 
@@ -143,6 +143,6 @@ python evaluate.py \
 - **Gemma** (`google/gemma-1.1-2b-it`) - LLM prompting
 - **CodeGemma** (`google/codegemma-7b-it`) - Code-optimized LLM prompting
 
-## License
 
-This project is for educational purposes.
+
+This is the final assignment that is part of the DS-GA-1011 coursework taught by Eunsol Choi
